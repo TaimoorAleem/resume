@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in Latex
+% Author : Taimoor
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+% Adjust font
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Muhammad Taimoor Aleem} \\ \vspace{1pt}
+    \begin{center}
+        \small
+        \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c @{\extracolsep{\fill}} c @{\extracolsep{\fill}} c}
+          \faEnvelope\ \href{mailto:taimooraleem01@gmail.com}{\underline{taimooraleem01@gmail.com}} &
+          \faLinkedin\ \href{https://linkedin.com/in/TaimoorAleem}{\underline{linkedin.com/in/TaimoorAleem}} &
+          \faGithub\ \href{https://github.com/TaimoorAleem}{\underline{github.com/TaimoorAleem}} &
+          \faGlobe\ \href{https://taimooraleem.com}{\underline{taimooraleem.com}}
+        \end{tabular*}
+    \end{center}
+\end{center}
+
+%-----------SKILLS-----------
+\section{Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}, itemsep=0.5em]
+        \small{\item{
+         \textbf{Languages}{: HTML/CSS, JavaScript, TypeScript, C/C++, C\#, Java, Python, SQL, R, \textrm{\LaTeX}} \\
+         \vspace{0.25em}
+         \textbf{Frameworks/Libraries}{: .NET, ASP.NET Core, React.js, Next.js, Express.js, Node.js, Flask, Django, Spring Boot, Bootstrap, Tailwind } \\
+         \vspace{0.25em}
+         \textbf{Tools/Technologies}{: Git, GitHub, Jira, Figma, Slack, VS Code, Visual Studio, IntelliJ IDEA} \\
+        }}
+    \end{itemize}
+    \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Honours Bachelor of Computer Science (Specialization in Data Analytics) }{Sep. 2021 -- Apr 2025}
+      {Sheridan College}{Oakville, ON}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    \begin{multicols}{3}
+        \begin{itemize}[itemsep=-2pt, parsep=3pt]
+            \item\small Data Structures and Algorithms
+            \item Software Design
+            \item Software Engineering
+            \item Operating Systems \& Network Services
+            \item OS Analysis \& Design
+            \item Web App Design \& Implementation
+            \item Statistics for Data Science
+            \item Machine Learning Techniques
+        \end{itemize}
+    \end{multicols}
+    \vspace*{2.0\multicolsep}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{BuddyFinder} $|$ \emph{Next.js, Tailwind CSS, Java, Spring Boot}}{January 2024}
+          \resumeItemListStart
+            \resumeItem{Contributed to the development of a full-stack web application in the Hackville 2024 hackathon.}
+            \resumeItem{Achieved the Best UI Design award for the project.}
+            \resumeItem{Utilized Next.js and Tailwind CSS for the front-end, along with Spring Boot and Java for the back-end.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Rihla Travels} $|$ \emph{ASP.NET Core, C\#, Bootstrap}}{December 2023}
+          \resumeItemListStart
+            \resumeItem{Served as the group leader for a team project, overseeing the development of a Full-Stack Enterprise-Grade Travel Booking Application and honing my leadership and strategic planning abilities.}
+            \resumeItem{Utilized ASP.NET Core, Entity Framework Core, SQL Server and Web API for the back-end along with React and Bootstrap for the front-end.}
+            \resumeItem{Achieved a grade of 93\% for the project.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Sheridan Works Out} $|$ \emph{.Net, C\#, Xamarin.Forms}}{August 2022}
+          \resumeItemListStart
+            \resumeItem{Collaborated with a team using agile methodology to create a cross-platform mobile application using Xamarin.Forms and .NET Framework in C\#.}
+            \resumeItem{Achieved a grade of 90\% for my contributions.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Pet Store Website, Dice Roller Game, Rock Paper Scissors Game} $|$ \emph{Java, Spring Boot}}{April 2023}
+          \resumeItemListStart
+            \resumeItem{Developed several dynamic object-oriented web applications using Spring Boot framework and Java.}
+            \resumeItem{Leveraged H2 database engine for data persistence and management which facilitated data storage and retrieval.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{DollarSense} $|$ \emph{Next.js, Tailwind CSS, Flask, Python}}{January 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Currently leading a team to develop a Full-Stack Budget Tracker App that utilizes machine learning to provide spending predictions and personalized financial advice to users.}
+            \resumeItem{Utilizing Next.js and Tailwind CSS for the front-end, and Flask for the back-end along with Python to build the ML models.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------INVOLVEMENT---------------
+\section{Certifications}
+    \resumeSubHeadingListStart
+        \resumeSubheading{IBM Full Stack Software Developer Professional Certificate}{December 2023 -- Present}{Coursera}{}
+        \resumeSubheading{Mastering Data Structures \& Algorithms using C and C++}{January 2024 -- Present}{Udemy}{}
+        \resumeSubheading{Introduction to Machine Learning}{November 2023}{Kaggle}{}
+    \resumeSubHeadingListEnd
+
+\end{document}
