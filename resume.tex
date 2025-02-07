@@ -18,10 +18,19 @@
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage{multicol}
+\usepackage{fontawesome}
+\usepackage{xcolor}
 \setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
+\setlength{\columnsep}{1pt}
 \input{glyphtounicode}
 
+\hypersetup{
+    colorlinks=true,
+    urlcolor=darkblue   % Set link color to dark blue
+}
+
+% Define dark blue color
+\definecolor{darkblue}{RGB}{0, 0, 139}
 
 % Adjust font
 \pagestyle{fancy}
@@ -32,7 +41,7 @@
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.2in}
 \addtolength{\textwidth}{1.19in}
 \addtolength{\topmargin}{-.7in}
 \addtolength{\textheight}{1.4in}
@@ -103,7 +112,7 @@
 \begin{document}
 
 \begin{center}
-    {\Huge \scshape Muhammad Taimoor Aleem} \\ \vspace{10pt}
+    {\huge \scshape Muhammad Taimoor Aleem} \\ \vspace{10pt}
     \small
     \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} c @{\extracolsep{\fill}} c @{\extracolsep{\fill}} c @{\extracolsep{\fill}} c}
       \faEnvelope\ \href{mailto:taimooraleem01@gmail.com}{\underline{taimooraleem01@gmail.com}} &
@@ -113,125 +122,123 @@
       \faPhone\ (416) 827 0507
     \end{tabular*}
 \end{center}
+\vspace{-18pt}
 
 %-----------SUMMARY-----------
 \section{Summary}
-\vspace{5pt}
+\vspace{3pt}
 \begin{itemize}[noitemsep, nolistsep]
-    \item Highly motivated Computer Science student with a strong passion for Software Development.
-    \item Seeking Internship / CO-OP opportunities in Software Development and available for up-to 12 months.
+    \item Highly motivated 4th Year Computer Science student with a strong passion for Software Development and AI.
+    \item Proven record of leveraging technical and interpersonal skills to excel in internships \& extracurricular roles.
 \end{itemize}
-\vspace{-5pt}
+\vspace{-10pt}
 
 %-----------SKILLS-----------
 \section{Skills}
     \begin{center}
-        \begin{tabular}{@{\hspace{0em}} r @{\hspace{1.5em}} p{0.70\textwidth} @{}}
-                {\textbf{Programming Languages}}    &   HTML/CSS, JavaScript, TypeScript, Java, C/C++, C\#, Python, SQL, \textrm{\LaTeX}                    \\
-              {\textbf{Libraries \& Frameworks}}    &   .NET, ASP.NET (Core/MVC), Spring Boot, React.js, Next.js, Express.js, Node.js, Flask, Bootstrap, Tailwind   \\
-                            {\textbf{Databases}}    &   Microsoft SQL Server, SQLite, MongoDB, Google Firestore                             \\
+        \begin{tabular}{@{\hspace{0em}} r @{\hspace{1.2em}} p{0.70\textwidth} @{}}
+                {\textbf{Programming Languages}}    &   C\#, SQL, Python, JavaScript, TypeScript, Java, C/C++, \textrm{\LaTeX}\\
+              {\textbf{Tools \& Technologies}}    &   .NET, ASP.NET Core (MVC / Web API), React.js, Next.js, Express.js, Node.js, Flask, Bootstrap, Linux, SQL Server, SQLite, MongoDB, Google Firestore\\
         \end{tabular}
     \end{center}
-\vspace{-20pt}
+\vspace{-26pt}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \vspace{-4pt}
        \resumeSubHeadingListStart
+       
+           \resumeProjectHeading
+            {\textbf{Software Developer Intern} $|$ \footnotesize{Dayforce - Wallet Feature Team}}{Jan 2025 - Dec 2025 (12 Months)}
+            \vspace{-16pt}
+            \resumeItemListStart
+                \resumeItem{Developing and maintaining APIs in C\# / .NET, utilizing Entity Framework Core and SQL Server on Azure to enable seamless digital wallet integrations, and collaborating with cross-functional teams in an Agile environment.}
+            \resumeItemListEnd
+            \vspace{-18pt}
+            
+            \resumeProjectHeading
+            {\textbf{Software Developer} $|$ \footnotesize{Skill Squirrel} $|$ \href{https://drive.google.com/file/d/16khUcRUuoAtqCSfgY1nGbZEthy-r0ZdX/view?usp=sharing}{\underline{Work Term Evaluation} \faExternalLink}}{May 2024 - Nov 2024 (7 Months)}
+            \vspace{-16pt}
+            \resumeItemListStart
+                \resumeItem{Successfully developed a working prototype that incorporates Generative AI and prompt-engineering using Python and Microsoft Azure OpenAI API Service for a feature that aims to enhance user experience and product functionality.}
+            \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+\vspace{-20pt}
+
+%-----------EXTRA-CURRICULAR-----------
+\section{Extra-Curricular Experience \& Awards}
+\vspace{-2pt}
+       \resumeSubHeadingListStart
+       
         \resumeProjectHeading
-        {\textbf{Software Developer Intern} $|$ \footnotesize\emph{Skill Squirrel}}{May 2024 - Aug 2024}
-        \vspace{-13pt}
-        
+        {\textbf{VP of Technology} $|$ \footnotesize{Sheridan Hackville Club}}{Mar 2024 - Present}
+        \vspace{-16pt}
         \resumeItemListStart
-            \resumeItem{Leading the development of an Augmented Reality extension using C\# and Unity for Skill Squirrel's web-based platform, enhancing user engagement by integrating immersive technology solutions.}
-            \resumeItem{Single-handedly developing and integrating a Generative AI feature for the badge maker tool, allowing users to create and customize badges based on text prompts, enhancing user experience and product functionality.}
+            \resumeItem{Contributed to development of the website of the upcoming \href{https://hackville.io}{\underline{Hackville 2025}} hackathon event by utilizing Webflow and collaborating with the design team, ensuring its readiness for use by 300+ expected applicants.}
+        \resumeItemListEnd
+        \vspace{-18pt}
+
+        \resumeProjectHeading
+        {\textbf{Workshop Organizer} $|$ \footnotesize{Google Developer Student Club}}{Sep 2024 - Present}
+        \vspace{-16pt}
+        \resumeItemListStart
+            \resumeItem{Responsible for organizing Study Jams and Leetcode workshops, tutoring students on topics including Cloud Computing, Machine Learning, and competitive programming; demonstrating leadership and mentoring skills.}
+        \resumeItemListEnd
+        \vspace{-18pt}
+        
+        \resumeProjectHeading
+        {\textbf{Best UI Design Award} $|$ \footnotesize{Hackville 2024} $|$ \href{https://devpost.com/software/buddyfinder-c0rak1}{\underline{Devpost Link} \faExternalLink}}{Jan 2024}
+        \vspace{-16pt}
+        \resumeItemListStart
+            \resumeItem{Single-handedly developed the front-end of a project to achieve the Best UI Design Award at Hackville 2024 hackathon.}
         \resumeItemListEnd
     
     \resumeSubHeadingListEnd
-\vspace{-15pt}
-
-%-----------EDUCATION-----------
-\section{Education}
-\vspace{4pt}
-  \resumeSubHeadingListStart
-    
-    \resumeSubheading
-      {Honours Bachelor of Computer Science (Specialization in Data Analytics)}{Sep 2021 -- Apr 2026}
-      {Sheridan College}{Oakville, ON}
-
-      \vspace{-12pt}
-      
-      \subsection*{Relevant Coursework}
-      \begin{multicols}{3}
-          \begin{itemize}[itemsep=-2pt, parsep=3pt]
-              \item\small Data Structures and Algorithms
-              \item Software Design
-              \item Software Engineering
-              \item Operating Systems \& Network Services
-              \item OS Analysis \& Design
-              \item Web App Design \& Implementation
-              \item Enterprise Software Systems
-              \item Machine Learning Techniques
-          \end{itemize}
-      \end{multicols}
-      \vspace*{2.0\multicolsep}
-      
-  \resumeSubHeadingListEnd
-\vspace{-6pt}
+\vspace{-20pt}
 
 %-----------PROJECTS-----------
-\section{Academic Projects}
-
+\section{Projects}
     \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Rihla Travels} $|$ \emph{ASP.NET Core, C\#, Bootstrap}}{Dec 2023}
-          \resumeItemListStart
-            \resumeItem{Served as the group leader to oversee the development of a full-stack travel booking application and honing leadership and strategic planning abilities.}
-            \resumeItem{Undertook responsibility of developing the Flights section and crafting the UI of the application, achieving a 93\% grade.}
-          \resumeItemListEnd
-          \vspace{-15pt}
-
+    \vspace{-2pt}
+    
         \resumeProjectHeading
-          {\textbf{Dollar Sense} $|$ \emph{React.js, Tailwind CSS, Flask, Python}}{Apr 2024}
+          {\textbf{\href{https://github.com/TaimoorAleem/DollarSenseApp}{\underline{Dollar Sense} \faExternalLink}} $|$ \emph{Flask, Python, Scikit-Learn, React.js, TypeScript} $|$ Academic}{Apr 2024}
           \resumeItemListStart
             \resumeItem{Contributed to the development of a full-stack personal budget tracker website by developing a dynamic dashboard with React.js and Flask, utilizing RESTful APIs to process and display data in real-time.}
             \resumeItem{Implemented a machine learning model with scikit-learn to predict monthly expenses from transaction data, improving financial planning accuracy for users by analyzing historical spending patterns.}
-            \resumeItem{Followed the complete Software Development Life Cycle, including design, development, testing, and documentation.}
           \resumeItemListEnd
-          \vspace{-15pt}
-          
-      \resumeProjectHeading
-          {\textbf{Sheridan Works Out} $|$ \emph{.Net, C\#, Xamarin.Forms}}{Aug 2022}
+          \vspace{-16pt}
+
+        \resumeProjectHeading
+          {\textbf{\href{https://github.com/TaimoorAleem/FinShare}{\underline{FinShare} \faExternalLink}} $|$ \emph{ASP.NET Core Web API, C\#, SQL Server} $|$ Personal}{Aug 2024}
           \resumeItemListStart
-            \resumeItem{Developed a mobile fitness app using agile methodology, integrating advanced OOP concepts and UML modeling.}
-            \resumeItem{Designed and developed the UI and back-end of the Calorie Tracker Page, achieving a grade of 90\%.}
+            \resumeItem{Developed a backend-only application using ASP.NET Core Web API, to manage stock portfolios and user comments, implementing RESTful APIs, JWT authentication, and entity relationships.}
+            \resumeItem{Utilized Entity Framework Core, asynchronous programming, and repository pattern to ensure efficient database interactions, dynamic sorting, and filtering, enhancing overall application performance and maintainability}
           \resumeItemListEnd
+          \vspace{-16pt}
 
-    \vspace{5pt}
+        \resumeProjectHeading
+          {\textbf{AI Cricket Coach (Capstone Project)} $|$ \emph{Python, OpenCV, Google Cloud, Flutter} $|$ Academic}{Sep 2024 - Apr 2025}
+          \resumeItemListStart
+            \resumeItem{Serving as the project leader to develop a mobile application that utilizes OpenCV to track the ball trajectory and Machine Learning to provide personalized feedback to athletes during training.}
+            \resumeItem{Following the complete SDLC including documentation, design, and testing; implemented Clean Archietcture for the Flutter mobile app and incorporated Google Cloud services like Cloud Run \& Firestore for storage and processing.}
+          \resumeItemListEnd
           
     \resumeSubHeadingListEnd
-\vspace{-15pt}
+\vspace{-20pt}
 
-%-----------EXTRA-CURRICULAR-----------
-\section{Extra-Curricular Activities \& Awards}
-       \resumeSubHeadingListStart
-        \resumeItemListStart
-            \resumeItem{Serving the Sheridan Hackademics Club as the VP of Technology, responsible for developing the upcoming 'Hackville 2025' hackathon event's website and integrating user-login functionality with Discord OAuth2 API and data storage using MongoDB, while collaborating with the design team to ensure its readiness for use by over 130+ participants.}
-            \vspace{2pt}
-            \resumeItem{Achieved the Best UI Design award at the 'Hackville 2024' hackathon by collaborating with back-end developers and serving as the sole front-end developer.}
-        \resumeItemListEnd
-    \resumeSubHeadingListEnd
-\vspace{-15pt}
-
-%-----------CERTIFICATIONS---------------
-\section{Certifications}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-          {\textbf{IBM Full Stack Software Developer Professional Certificate} $|$ \emph{Coursera}}{}
-          \vspace{-24pt}
-        \resumeProjectHeading
-          {\textbf{Mastering Data Structures \& Algorithms using C and C++} $|$ \emph{Udemy}}{}
-          \vspace{-15pt}
-    \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+\vspace{2pt}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Honours Bachelor of Computer Science ( Specialization in Data Analytics )}{Sep 2021 -- Apr 2026}
+      {Sheridan College}{Oakville, ON}
+      \vspace{8pt}
+      
+  \resumeSubHeadingListEnd
+\vspace{-50pt}
 
 \end{document}
