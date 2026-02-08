@@ -16,9 +16,8 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
-\usepackage{multicol}
 \usepackage{fontawesome}
+\usepackage{multicol}
 \usepackage{xcolor}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{1pt}
@@ -124,20 +123,6 @@
 \end{center}
 \vspace{-18pt}
 
-%-----------SKILLS-----------
-\section{Skills}
-\vspace{2pt}
-\small
-    \begin{tabular}{@{\hspace{0em}} l @{\hspace{1.2em}} p{0.70\textwidth} @{}}
-        \textbf{Programming Languages:} & Python, SQL, C\#, JavaScript, TypeScript, Java, C/C++, GO \\
-        \textbf{Data Science:} & Pandas, NumPy, scikit-learn, OpenCV, TensorFlow, PyTorch, Generative AI \\
-        \textbf{Cloud Computing:} & GCP (Cloud Run, Pub/Sub, Firebase), Azure (AI, DevOps), AWS (Lambda, EC2, S3)  \\
-        \textbf{Libraries \& Frameworks:} & .NET (ASP.NET Core MVC \& Web API), React.js, Express.js, Next.js, Node.js, Angular, Flutter, Tailwind CSS, Bootstrap \\
-        \textbf{Databases \& Tools:} & Git, Jira, Docker, Kafka, SQL Server, Google Firestore, MongoDB, MySQL, PostgresQL \\
-    \end{tabular}
-\normalsize
-\vspace{-10pt}
-
 %-----------EXPERIENCE-----------
 \section{Experience}
 \vspace{-2pt}
@@ -150,7 +135,9 @@
             }{Jan 2025 - Dec 2025 (12 Months)} 
             \vspace{-12pt}
             \resumeItemListStart
-                \resumeItem{Developed and maintained backend services for the Dayforce Wallet platform using C\#/.NET, SQL Server, Apache Kafka, and CI/CD pipelines (Azure DevOps); contributing to scalable event-driven microservices architectures.}
+                \resumeItem{Developed and maintained backend infrastructure using C\#/.NET, SQL Server, and Azure DevOps CI/CD.}
+                \resumeItem{Built and supported event-driven financial data pipelines using Apache Kafka to stream and process real-time high-volume POS tip transactions, enabling instant digital disbursement through the Dayforce Wallet platform.}
+                \resumeItem{Implemented retry and resilience mechanisms for tip processing, including re-queuing unprocessed events, exception handling for Kafka timeouts, and automated patch workflows to ensure data consistency and fault tolerance.}
                 \resumeItem{Researched and optimized Restful APIs by troubleshooting performance bottlenecks and implementing efficient database queries; improving reliability and response times for downstream systems and increasing unit test coverage to 80\%.}
                 \resumeItem{Collaborated cross-functionally with mobile developers and stakeholders in an Agile environment; delivered feature demos to 50+ senior leaders and managers, strengthening technical communication and presentation skills.}
             \resumeItemListEnd
@@ -161,7 +148,6 @@
             \vspace{-12pt}
             \resumeItemListStart
                 \resumeItem{Developed a Python-based prototype to enhance the Badge Maker using Azure's Vision API and Generative AI, involving OCR, image-to-text conversion, and API-based image generation to demonstrate feature feasibility.}
-                \resumeItem{Enhanced the Badge Maker's UI using React.js and Express.js, enabling dynamic previews, state-driven customization, and seamless frontend-backend integration for improved user experience.}
             \resumeItemListEnd
     
     \resumeSubHeadingListEnd
@@ -172,7 +158,7 @@
 \vspace{-2pt}
     \resumeSubHeadingListStart
         \resumeProjectHeading
-          {\textbf{Vice President} $|$ \footnotesize{Google Developer Groups on Campus Sheridan College} $|$ \href{https://drive.google.com/file/d/1J0qDoTMFTmO1QhOQcJiXJncdSiCTbp2O/view?usp=sharing}{LOR \faExternalLink} }{Sep '25 - Present}
+          {\textbf{Vice President} $|$ \footnotesize{Google Developer Group on Campus Sheridan College} $|$ \href{https://drive.google.com/file/d/1J0qDoTMFTmO1QhOQcJiXJncdSiCTbp2O/view?usp=sharing}{LOR \faExternalLink} }{Sep '25 - Present}
           \resumeItemListStart
             \resumeItem{Leading the strategic vision of a Google affiliated club by organizing events to support 800+ community members.}
             \resumeItem{Mentoring and managing 30+ team leads and members; ensuring smooth operations and knowledge transfer.}
@@ -185,7 +171,7 @@
           $|$ \href{https://www.linkedin.com/posts/taimooraleem_sheridan-datathon-2025-recap-200-participants-activity-7399008502486290432-qDXa}{Event Recap \faExternalLink}}{Apr '25 - Nov '25}
           \resumeItemListStart
             \resumeItem{Founded and led a Datathon attracting 300+ participants across Canada; managed cross-functional teams of 50+ organizers and volunteers and led multiple moving parts to successfully lead GDG's largest event in history.}
-            \resumeItem{Integrated Google technologies (Google Cloud, Gemini API, etc) into prize tracks and technical workshops; developed learning materials and resources to aid hackers in applying AI and Data Science to real-world problems.}
+            \resumeItem{Integrated Google technologies (Google Cloud, BigQuery, etc) into technical workshops and prize tracks; developed learning materials and resources to aid hackers in applying AI and Data Science to real-world problems.}
           \resumeItemListEnd
           
     \resumeSubHeadingListEnd
@@ -202,8 +188,7 @@
           $|$ \href{https://drive.google.com/file/d/16nV_F1458UqtXBYLwEqJtoV6RG1xtwq-/view?usp=sharing}{Report \faExternalLink}
           }{Sep 2024 - Apr 2025}
           \resumeItemListStart
-            \resumeItem{Served as the project leader to develop a mobile application that utilizes Computer Vision to track the ball trajectory and Machine Learning to provide personalized feedback for improvement to athletes to enhance their performance.}
-            \resumeItem{Achieved \href{https://www.instagram.com/reel/DNTDaAjuYWa/}{\underline{First Place}} based on an evaluation criteria including technical relevance, solution construction and feasibility.}
+            \resumeItem{Served as the project leader and achieved \href{https://www.instagram.com/reel/DNTDaAjuYWa/}{\underline{First Place}} by developing a mobile application that utilizes Computer Vision to track the ball trajectory and Machine Learning to provide personalized feedback for improvement to athletes.}
             \resumeItem{Engineered a video analysis pipeline using Python and OpenCV to extract ball trajectory features and deployed the Random Forest-based ML model and processing pipeline on Google Cloud for scalable, real-time inference.}
             \resumeItem{Followed the complete Software Developement Life Cycle to build the mobile application using Flutter; implemented key software design patterns (Repository, Singleton, Factory) to ensure modularity, testability, and maintainability.}
           \resumeItemListEnd
@@ -230,6 +215,21 @@
       \vspace{8pt}
       
   \resumeSubHeadingListEnd
+\vspace{-22pt}
+
+%-----------SKILLS-----------
+\section{Skills}
+\vspace{2pt}
+\small
+    \begin{tabular}{@{\hspace{0em}} l @{\hspace{1.5em}} p{0.70\textwidth} @{}}
+        \textbf{Programming Languages:} & Python, SQL, C\#, JavaScript, TypeScript, Java, C/C++, GO \\
+        \textbf{Data Science / Engineering:} & Pandas, NumPy, scikit-learn, XGBoost, RAG, TensorFlow, PyTorch, Spark, Hadoop \\
+        \textbf{Cloud Computing:} & GCP (Cloud Run, Pub/Sub, BigQuery), Azure (AI, DevOps), AWS (Lambda, EC2, S3)  \\
+        \textbf{Databases \& Tools:} & Git, Jira, Docker, Kafka, SQL Server, MongoDB, MySQL, PostgresQL \\
+        \textbf{Libraries \& Frameworks:} & ASP.NET, React.js, Express.js, Next.js, Node.js, Angular, Flutter, Tailwind, Bootstrap \\
+        
+    \end{tabular}
+\normalsize
 \vspace{-50pt}
 
 \end{document}
